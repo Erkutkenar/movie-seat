@@ -20,9 +20,6 @@ function setMovieData(movieIndex, moviePrice) {
 }
 
 
-
-
-
 // Update total and count
 function updateSelectedCount() {
     const selectedSeats = document.querySelectorAll('.row .seat.selected');
@@ -72,9 +69,6 @@ function populateUI() {
         movieSelect.selectedIndex = selectedMovieIndex;
     }
 }
-
-
-
 
 
 //Movie Select event
